@@ -6,39 +6,37 @@ export default function SkillBars() {
     const [technologies, setTechnologies] = useState([
         {
             name: "HTML5",
-            percentage: 80
+            percentage: 90
         },
         {
             name: "CSS3",
-            percentage: 80
+            percentage: 90
         },
         {
             name: "Javascript",
-            percentage: 90
+            percentage: 80
         },
+
         {
-            name: "PHP",
+            name: "Typescript",
             percentage: 60
         },
+        
         {
             name: "ReactJS",
-            percentage: 90
+            percentage: 85
         },
         {
             name: "NodeJS",
-            percentage: 60
+            percentage: 70
+        },
+        {
+            name: "MongoDB",
+            percentage: 80
         },
         {
             name: "SASS",
             percentage: 60
-        },
-        {
-            name: "VanillaJS",
-            percentage: 80
-        },
-        {
-            name: "JQuery",
-            percentage: 70
         },
     ]);
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-import myImage from "../../img/myImage.png";
+import myImage from "../../img/yy.jpeg";
 
 //import skillBars
 import SkillBars from "./about.description.skillBars";
@@ -15,8 +15,8 @@ export default function AboutDescription(props) {
                     alt="Portfolio Image"
                     style={{
                         borderRadius: 50 + "%",
-                        height: 250 + "px",
-                        width: 250 + "px"
+                        height: 300 + "px",
+                        width: 200 + "px"
                     }}
                 />
                 <p className="mytext pt-3">
