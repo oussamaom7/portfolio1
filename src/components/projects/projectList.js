@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 
 //import images
 import img from "../../img/img.png";
+import carte from "../../img/cart.jpeg"
 import todo from "../../img/todolist.png";
 import login from "../../img/login.png"
 
@@ -18,6 +19,11 @@ export default function ProjectList() {
             name: "Xticket",
             image: img,
             button: "agua"
+        },
+        {
+            name: "Credit card form",
+            image: carte,
+            button: "carte"
         },
         {
             name: "todolist",
